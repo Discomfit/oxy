@@ -1,3 +1,8 @@
+// Try
+// curl 1481709001308635156.discordsays.com/80
+// curl 1481709001308635156.discordsays.com     ## This is just /120
+// curl 1481709001308635156.discordsays.com/200
+
 import { NextRequest, NextResponse } from 'next/server';
 import path from 'path';
 import fs from "fs";
