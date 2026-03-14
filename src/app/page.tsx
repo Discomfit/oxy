@@ -9,7 +9,7 @@ export default function Home() {
       <main className="flex min-h-screen w-full max-w-4xl flex-col items-center py-10 px-16 sm:items-start">
         <nav className="flex justify-between w-full items-center">
           <div className="flex gap-4">
-            <Image src="https://github.com/Discomfit.png" alt="Oxy's Profile Picture" width={ 74 } height={ 74 } priority className="rounded-full" />
+            <Image src="/pfp.png" alt="Oxy's Profile Picture" width={ 74 } height={ 74 } priority className="rounded-full" />
             <div className="flex flex-col justify-center gap-0.5">
               <div className="text-gradient flex gap-2">
                 <h2>Oxy.</h2>
