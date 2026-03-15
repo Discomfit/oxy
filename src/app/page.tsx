@@ -6,8 +6,8 @@ import Section from "@/components/Section";
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center font-sans">
-      <main className="flex min-h-screen w-full max-w-4xl flex-col items-center py-10 px-16 sm:items-start">
-        <nav className="flex justify-between w-full items-center">
+      <main className="flex min-h-screen w-full max-w-4xl flex-col items-center py-10 px-16 sm:items-start max-sm:px-6">
+        <nav className="flex justify-between w-full items-center max-sm:flex-col max-sm:gap-8 max-sm:items-center">
           <div className="flex gap-4">
             <Image src="/pfp.png" alt="Oxy's Profile Picture" width={ 74 } height={ 74 } priority className="rounded-full" />
             <div className="flex flex-col justify-center gap-0.5">
@@ -78,7 +78,7 @@ export default function Home() {
         <Section className="gap-0!">
           <p className="text-gradient">Want to hire me? I'm looking for work!</p>
           <p className="text-gradient">Discord: @oxidation6_</p>
-          <p className="text-[#786170] absolute right-0 bottom-0">curl 1481709001308635156.discordsays.com</p>
+          <p className="text-[#786170] absolute right-0 bottom-0 max-sm:hidden max-md:relative">curl 1481709001308635156.discordsays.com</p>
         </Section>
       </main>
     </div>
